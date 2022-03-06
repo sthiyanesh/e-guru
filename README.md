@@ -3,7 +3,9 @@ E-Guru is a Online course Teaching and learning Platform where a student can lea
 
 This is built using the Springboot Framework in Java Servlets
 
-This Application is currently on building stage on Guru Side Pages..
+I am currently working on creating Guru Side Pages..
+
+The Source codes are present in the Master Branch of this Repository
 
 The Implementation link of this Website Application is 
 https://e-guru-website.herokuapp.com/joinus
