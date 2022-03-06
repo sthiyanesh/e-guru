@@ -7,5 +7,6 @@ I am currently working on creating Guru Side Pages..
 
 The Source codes are present in the Master Branch of this Repository
 
-The Implementation link of this Website Application is 
+The Current Implementation of this Project is 
+
 https://e-guru-website.herokuapp.com/joinus
