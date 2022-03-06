@@ -1,0 +1,147 @@
+.header{
+    background-color: #005792;
+}
+#logo{
+    float: left;
+    width: 5%;
+    border-radius: 50%;
+}
+#cname{
+    font-family: Dosis;
+    font-size: 45px;
+    padding: 10px;
+    text-align: center;
+    color: #FFB740;   
+}
+.mainbox{
+    background-color: #00BBF0;
+    opacity: 70%;
+    width: 24%;
+    margin-left: 38%;
+    border: 5px solid #005792;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10%;
+    text-align: center;
+}
+#loghead{
+    font-family: Playfair Display;
+    font-size: 40px;
+    text-align: center;
+    color: #F90716;
+}
+#email{
+    font-size: 20px;
+}
+#box1{
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+}
+#pass{
+    font-size: 20px;
+}
+#box2{
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+}
+#submit{
+    font-family: Playfair Display;
+    background: #FDFF8F;
+    border: 5px solid #FFB740;
+    box-sizing: border-box;
+    border-radius: 10%;
+    color: #FF0000;
+    font-size: 20px;
+    width: 40%;
+}
+@media only screen and (max-width: 1024px) {
+    #logo{
+        width: 6.5%;
+    }
+    #cname{
+        font-size: 40px;
+    }
+    #loghead{
+        font-size: 30px;
+    }
+    .mainbox{
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+@media (max-width: 768px) {
+    #cname{
+        font-size: 30px;
+    }
+    #loghead{
+        font-size: 25px;
+    }
+    #email{
+        font-size: 18px;
+    }
+    #box1{
+        font-size: 18px;
+    }
+    #pass{
+        font-size: 18px;
+    }
+    #box2{
+        font-size: 18px;
+    }
+    #submit{
+        font-size: 17px;
+        width: 30%;
+        border: 3px solid #FFB740;
+    }
+    .mainbox{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+@media (max-width: 480px) {
+    #logo{
+        width: 11%;
+    }
+    #cname{
+        font-size: 25px;
+    }
+    #loghead{
+        font-size: 20px;
+    }
+    #email{
+        font-size: 15px;
+    }
+    #box1{
+        font-size: 15px;
+    }
+    #pass{
+        font-size: 15px;
+    }
+    #box2{
+        font-size: 15px;
+    }
+    #submit{
+        font-size: 15px;
+        width: 25%;
+        border: 2px solid #FFB740;
+    }
+    .mainbox{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+@media (max-width: 360px) {
+    #logo{
+        width: 12%;
+    }
+    #cname{
+        font-size: 20px;
+    }
+    .mainbox{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+

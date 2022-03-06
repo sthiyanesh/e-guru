@@ -1,0 +1,154 @@
+.header{
+    background-color: #005792;
+}
+#logo{
+    float: left;
+    width: 5%;
+    border-radius: 50%;
+}
+#profile{
+    float: right;
+    cursor: pointer;
+    width: 5%;
+    border-radius: 50%;
+}
+#cname{
+    font-size: 45px;
+    padding: 10px;
+    text-align: center;
+    color: #FFB740;
+    text-decoration: none;
+}
+.menu{
+    display: none;
+    background-color: white;
+    float: right;
+    text-align: center;
+    width: 20%;
+    border: 2px solid #FFB740;
+}
+.menu > h2 > a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu > h2:hover{
+    background-color: rgba(3, 96, 177, 0.25);
+}
+#wel{
+    font-size: 30px;
+    color: red;
+}
+#head1{
+    font-size: 25px;
+}
+.box1{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.card{
+    width:250px;
+    height: 300px;
+    margin: 2%;
+    transition: transform .2s;
+    filter: drop-shadow(7px 7px 4px rgba(0, 0, 0, 0.25));
+    background-color: white;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+#crimg{
+    width:100%;
+    height:100px;
+}
+.card > h2{
+    font-size: 20px;
+}
+.card > h3{
+    font-size: 18px;
+}
+#submitting{
+    background: #FDFF8F;
+    border: 3px solid #FFB740;
+    border-radius: 5px;
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+    #logo , #profile{
+        width: 6.5%;
+    }
+    #cname{
+        font-size: 40px;
+    }
+    .menu{
+        width: 30%;
+    }
+    .menu > h2 > a{
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) {
+    #logo , #profile{
+        width: 8%;
+    }
+    #cname{
+        font-size: 30px;
+    }
+    .menu{
+        width: 40%;
+    }
+    #wel{
+        font-size: 25px;
+    }
+    #head{
+        font-size:20px;
+    }
+    .card{
+        margin:3%;
+    }
+}
+@media(max-width: 580px){
+    #logo , #profile{
+        width: 9.5%;
+    }
+    .box1{
+        justify-content: center;
+    }
+}
+@media (max-width: 480px) {
+    #logo , #profile{
+        width: 11%;
+    }
+    #cname{
+        font-size: 25px;
+    }
+    .menu > h2 > a{
+        font-size: 15px;
+    }
+    .menu{
+        width: 50%;
+    }
+}
+@media (max-width: 360px) {
+    #logo , #profile{
+        width: 12%;
+    }
+    #cname{
+        font-size: 20px;
+    }
+    .menu > h2 > a{
+        font-size: 13px;
+    }
+    .menu{
+        width: 60%;
+    }
+    #wel{
+        font-size: 20px;
+    }
+    #head1{
+        font-size: 18px;
+    }
+}
